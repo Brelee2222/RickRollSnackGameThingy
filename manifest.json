@@ -1,0 +1,16 @@
+{
+    "manifest_version":3,
+    "name": "Snoahne knows this games a trick troll",
+    "version": "1",
+    "permissions":[
+    "scripting"
+  ],
+    "description": "Dear Noah, I hope you like it",
+    "content_scripts": [
+      {
+        "matches": ["https://www.google.com/*"],
+        "js": ["index.js"]
+      }
+    ]
+  }
+  
